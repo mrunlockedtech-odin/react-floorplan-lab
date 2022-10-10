@@ -4,12 +4,11 @@ import Sink from "./Sink";
 const Kitchen = () => {
   return (
     <div>
-     <h1>Kitchen</h1> 
-     <Oven />
-     <Sink />
+      <p>Kitchen</p>
+      <Oven />
+      <Sink />
     </div>
-
-     );
+  );
 }
- 
+
 export default Kitchen;

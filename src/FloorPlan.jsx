@@ -6,13 +6,13 @@ import LivingRoom from "./LivingRoom";
 const FloorPlan = () => {
   return ( 
     <>
-      <Bedroom number={1}/>
+      <Bedroom bedNum={1}/>
       <Kitchen />
-      <Bath />
-      <Bedroom number={1}/>
+      <Bath size="Full" />
+      <Bedroom bedNum={2}/>
       <LivingRoom />
-      <Bath />
-      <Bedroom number={1}/>
+      <Bath size="Half" />
+      <Bedroom bedNum={3}/>
     </>
 
    );

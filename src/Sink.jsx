@@ -1,7 +1,7 @@
 const Sink = () => {
   return (
     <div>
-      <h1>Sink</h1>
+      <p>Sink</p>
     </div>
   );
 }
